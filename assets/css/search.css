@@ -1,0 +1,93 @@
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+.add-on {
+  /*border: 1px solid #888 !important;*/
+  border-radius: 35px;
+overflow: hidden;
+}
+
+.onKeyUp {
+  box-shadow: 0px 1px 4px 0px #999;
+  border-radius: 20px;
+  transition: .3s;
+}
+
+.i_text {
+  color: #fff;
+  font-size: 13px;
+  display: none;
+  position: relative;
+  transition: .3s;
+}
+.acc_link:hover .i_text{
+  display: inline-block;
+}
+.link_result:hover {
+  background-color: #f3f3f3;
+}
+input[name="srch-term"] {
+  outline: none !important;
+  box-shadow:none;
+  border: none !important;
+  border-radius: 0px;
+}
+input[name="srch-term"]:focus {
+  outline: none !important;
+  box-shadow:none;
+  border: none !important;
+  border-radius: 0px;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+
+
+/*Modal CSS*/
+
+.show_c {
+  display: block !important;
+  background-color: #3336 !important;
+}
+.hide {
+  display: none !important;
+}
+.modal-header, .modal-footer {
+  border-bottom: none !important;
+}
